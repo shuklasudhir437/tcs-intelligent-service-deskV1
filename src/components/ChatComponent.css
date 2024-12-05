@@ -1,0 +1,167 @@
+#webchat {
+    height: calc(100% - 170px);
+    overflow: hidden;
+    position: fixed;
+    top: 100px;
+    border-radius: 0px;
+    width: 100%;
+    font-family: Segoe UI;
+    background-image:  50% 50%;
+    background-repeat: no-repeat;
+
+    #banner {
+        align-items: center;
+        background-color: #5B5BE8 !important;
+        display: flex;
+        height: 200px;
+    }
+
+    .webchat__bubble__content {
+        font-family: Segoe UI;
+        font-size: 14px;
+        border-color: rgb(230, 230, 230);
+        border-radius: 10px !important;
+        border-style: solid;
+        border-width: 1px;
+        color: black;
+        min-height: 38px;
+    }
+
+    .ac-pushButton {
+        appearance: none;
+        border: 1px solid #5B5BE8 !important;
+        background-color: white !important;
+        color: #5B5BE8 !important;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Segoe UI;
+        padding: 10px 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .ac-pushButton:hover {
+        transform: scale(1.01) !important;
+        border-radius: 10px !important;
+        color: white !important;
+        background-color: #5B5BE8 !important;
+        border: solid 1px #5B5BE8;
+    }
+
+    .ac-container.ac-selectable {
+        background-color: white !important;
+        border: solid 1px #5B5BE8;
+        padding: 5px !important;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .ac-textBlock {
+        font-family: Segoe UI !important;
+        margin-top: 5px !important;
+        font-size: 12px !important;
+        color: black !important;
+        cursor: pointer;
+    }
+
+    .ac-vertical-separator {
+        width: 0px !important;
+    }
+
+    .webchat__stacked-layout__attachment {
+        max-width: 60% !important;
+    }
+
+    .webchat--css-guqse-12hch8g.webchat__adaptive-card-renderer * {
+        font-family: Segoe UI !important;
+    }
+
+    .webchat__basic-transcript__filler {
+        background: url(../assets/chat-background.jpg) 50% 50%;
+        min-height: -webkit-fill-available;
+        background-repeat: no-repeat;
+        opacity: 0.4;
+    }
+
+    .webchat--css-jecen-1tdc372 .webchat__basic-transcript .webchat__basic-transcript__transcript {
+        list-style-type: none;
+        background: url(../assets/chat-background.jpg) 50% 50% 25% 25%;
+        background-repeat: no-repeat;
+        opacity: 0.4;
+    }
+
+    div.webchat--css-qzxmk-9g7ov9.webchat__suggested-action {
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: white;
+        border-color: #5B5BE8;
+        border-radius: 10px !important;
+        border-style: solid;
+        border-width: 2px;
+        color: rgb(0, 99, 177);
+        font-family: Calibri, "Helvetica Neue", Arial, "sans-serif";
+        font-size: inherit;
+        height: 40px;
+        -webkit-box-pack: center;
+        justify-content: center;
+        max-width: 100%;
+        outline: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    div.ac-container.ac-adaptiveCard {
+        border-radius: 25px !important;
+    }
+
+    button.webchat__suggested-action .webchat--css-mhodm-12ui717 .webchat--css-mhodm-9g7ov9 .webchat__suggested-actions__button {
+        display: flex;
+        overflow: hidden;
+        border-radius: 10px !important;
+    }
+
+    button.webchat__suggested-action.webchat--css-lnfwy-12ui717.webchat--css-lnfwy-9g7ov9.webchat__suggested-actions__button {
+        border-radius: 10px !important;
+    }
+
+    .ac-input {
+        border: 1px black !important;
+        padding: 10px 15px;
+    }
+}
+
+#webchat-container {
+    height: calc(100% - 170px);
+    overflow: hidden;
+    position: fixed;
+    top: 100px;
+    border-radius: 25px;
+    width: 100%;
+
+}
+
+#dashboard-logo {
+    width: 140px;
+    height: auto;
+    margin-right: 5px;
+}
+
+#footer {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    bottom: 10px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background-color: #5B5BE8;
+    font-family: Segoe UI;
+
+    a {
+        color: white;
+    }
+}

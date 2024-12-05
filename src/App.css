@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  margin: 0 !important;
+}
+
+body {
+  margin: 0 !important;
+}
+ 
+#webchat {
+  position: fixed;
+  height: calc(100% - 50px);
+  width: 100%;
+  top: 50px;
+  overflow: hidden;
+}
+ 
+button {
+  padding: 10px;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+

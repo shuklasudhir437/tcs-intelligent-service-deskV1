@@ -1,0 +1,74 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 300px; /* Adjust as needed */
+  height: 100vh;
+  background-color: #7979F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+ 
+.plus-sign {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Adjust as needed */
+}
+ 
+.horizontal-line {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  color: #ffffff;
+  transform: translateY(-50%);
+}
+ 
+.vertical-line {
+  position: absolute;
+  top: 10%;
+  bottom: -80%;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  transform: translateY(-50%);
+  
+}
+
+.vertical-line-down {
+  position: absolute;
+  top: 64%; /* Start from the middle of the container */
+  bottom: 0; /* Extend to the bottom edge of the container */
+  left: 50%;
+  text-align: center;
+  font-size: 24px; /* Keeps the same thickness */
+  color: #ffffff;
+  transform: translateX(-50%);
+}
+ 
+.value {
+  position: absolute;
+  font-size: 24px;
+  color: #3A3ADB;
+}
+ 
+.top-left {
+  top: -20px; /* Adjust as needed */
+  left: -50px; /* Adjust as needed */
+}
+ 
+.bottom-left {
+  bottom: -40px; /* Adjust as needed */
+  left: -50px; /* Adjust as needed */
+}
+ 
+.top-right {
+  top: -20px; /* Adjust as needed */
+  right: -50px; /* Adjust as needed */
+}
+ 
+.bottom-right {
+  bottom: -40px; /* Adjust as needed */
+  right: -50px; /* Adjust as needed */
+}
